@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="64dp"
+    android:layout_marginEnd="16dp"
+    tools:context=".RegisterCuadrillaActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_cuadrilla"
+        android:gravity="center"
+        android:textSize="24sp">
+
+    </TextView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email"
+        app:startIconDrawable="@drawable/email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cuadrilla_registerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="30"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/passwordTextView"
+        app:startIconDrawable="@drawable/password"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cuadrilla_passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="30"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/password"
+        android:hint="@string/repiteContraseña"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cuadrilla_repeatPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="30"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono"
+        app:startIconDrawable="@drawable/ic_baseline_phone_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cuadrilla_telephoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="30" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/municipio"
+        app:startIconDrawable="@drawable/ic_baseline_location_city_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cuadrilla_localityEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="30">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/registerCuadrillaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:text="@string/registrar_cuadrilla">
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

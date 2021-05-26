@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "315773547190",
+    "project_id": "inciapp-25423",
+    "storage_bucket": "inciapp-25423.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315773547190:android:8c98ac1df581e63644ac17",
+        "android_client_info": {
+          "package_name": "com.example.inciapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315773547190-9t4f4l3e50l26cdkgmnrusao2appk79s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inciapp",
+            "certificate_hash": "b189e187b208bdcfefd5f3483ced8038d7dc85f7"
+          }
+        },
+        {
+          "client_id": "315773547190-mfqu641sa525kvqb40rmnahtrh138s3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm3cvuCe_-NZ1Ceevym0ECvhpOjJ7MZys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315773547190-mfqu641sa525kvqb40rmnahtrh138s3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

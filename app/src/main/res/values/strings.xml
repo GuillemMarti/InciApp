@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">InciApp</string>
+    <string name="loginButton">Login</string>
+    <string name="registerString">¿Todavía no tienes cuenta?</string>
+    <string name="registerButton">Regístrate</string>
+    <string name="usernameTextView">Usuario</string>
+    <string name="passwordTextView">Contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="repiteContraseña">Repite contraseña</string>
+    <string name="Email">Email</string>
+    <string name="hacer_foto">Hacer foto</string>
+    <string name="telefono">Teléfono</string>
+    <string name="nombre_y_apellidos">Nombre y apellidos</string>
+    <string name="image">image</string>
+    <string name="subir_foto">subir foto</string>
+    <string name="descripcion_de_la_incidencia">Descripción de la incidencia</string>
+    <string name="filtros">Incidencia</string>
+    <string name="municipio">Municipio</string>
+    <string name="actualizar">actualizar</string>
+    <string name="mapa">mapa</string>
+    <string name="registrar_cuadrilla">Registrar cuadrilla</string>
+    <string name="incidencia">Tipo incidencia</string>
+    <string name="cuadrilla_seleccionada">Cuadrilla seleccionada</string>
+    <string name="registrar_cuenta">Registrar cuenta</string>
+    <string name="no_seleccionado">No seleccionado</string>
+    <string name="asignar_cuadrilla">Asignar Cuadrilla</string>
+    <string name="administrar_cuadrillas">Administrar cuadrillas</string>
+    <string name="detalles_incidencia">Detalles incidencia</string>
+    <string name="descripcion_incidencia2">Descripción:</string>
+    <string name="tipo_incidencia">Tipo incidencia:</string>
+    <string name="incidencia_reparada">Incidencia Reparada</string>
+    <string-array name="opt_list">
+        <item>Tipo Incidencia</item>
+        <item>Eléctrica</item>
+        <item>Fontanería</item>
+        <item>Mal estado</item>
+        <item>Otro</item>
+    </string-array>
+</resources>
